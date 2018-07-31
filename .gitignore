@@ -1,3 +1,4 @@
+.gitignore
 dist/
 node_modules/
 .vscode/
