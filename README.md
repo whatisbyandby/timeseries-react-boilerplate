@@ -1,6 +1,6 @@
 # timeseries-react-boilerplate
 
-This boiler plate will allow development of mendix widgets using typescript and react with JSX. 
+This boilerplate will allow development of mendix widgets using typescript and react with JSX. 
 
 To get started after cloning or forking the repository run "npm install".
 
