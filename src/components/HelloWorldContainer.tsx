@@ -8,9 +8,7 @@ interface HelloWorldContainerState {
 interface WrapperProps {
     class?: string;
     mxform: mxui.lib.form._FormBase;
-    mxObject?: mendix.lib.MxObject;
     style?: string;
-    readOnly?: boolean;
 }
 
 interface HelloWorldContainerProps extends WrapperProps {
@@ -28,10 +26,6 @@ class HelloWorldContainer extends React.Component<HelloWorldContainerProps, Hell
     componentDidMount() {
         this.setState({ displayMessage: this.props.displayMessage });
     }
-
-    // private handleOnClick = () => {
-    //     console.log("onclick");
-    // }
 
     render() {
         return(
