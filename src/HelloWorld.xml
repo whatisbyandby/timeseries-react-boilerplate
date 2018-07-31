@@ -7,7 +7,7 @@
         <property key="displayMessage" type="string" required="false" defaultValue="">
             <caption>Display Message</caption>
             <category>Appearance</category>
-            <description>This will display a message set in the modeler will</description>
+            <description>This will display a message set in the modeler</description>
         </property>
     </properties>
 </widget>
