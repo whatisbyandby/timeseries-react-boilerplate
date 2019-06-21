@@ -5,7 +5,7 @@ import HelloWorldContainter from "./HelloWorldContainer";
 export interface HelloProps {
     className: string | undefined;
     message: string;
-    attributeMessage: string | number | boolean | null;
+    attributeMessage: string | null;
     style: string | undefined;
 }
 
